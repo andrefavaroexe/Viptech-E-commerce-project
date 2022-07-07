@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container .produto { 
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  margin: 0% auto;
+  border: 1px solid yellow;
+  width: 1000px;
+
+}
+.listaProduto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.informacoesProduto {
+  display: flex;
+  gap: 50px;
+}
+.informacoesProduto .productBox {
+  border: 2px solid rgb(0, 0, 0);
+}
+.nomeProduto {
+  border: 2px solid purple;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marcaProduto {
+  border: 2px solid blue;
+  font-weight: medium;
+  font-size: 20px;
+  color: gray;
+
+}
+
+.precoProduto {
+  border: 2px solid blue;
+  padding-bottom: 0;
+  margin: 0px;
+  color: black;     
+  font-weight: bold;
+  font-size: 32px;
+  
+
+}
+
+.corProduto {
+  color: gray;
+  font-weight: medium;
+  font-size: 20px;
+}
+
+.listaProduto .icones {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
 }

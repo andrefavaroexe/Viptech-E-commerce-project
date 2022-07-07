@@ -1,0 +1,23 @@
+.Button {
+    background-color: #0F4C81;
+    width: 291px;
+    height: 64px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+
+    
+
+    
+}
+
+.Button img {
+
+    margin-right: 25px;
+}

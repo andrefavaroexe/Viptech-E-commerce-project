@@ -1,0 +1,6 @@
+.listaProduto {
+    border: solid 1px red;
+    margin: 0% auto;
+    display: flex;
+    width: 1000px;
+}
