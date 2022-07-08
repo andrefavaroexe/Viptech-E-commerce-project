@@ -1,9 +1,12 @@
+import { pg2 } from './components/pages/Page2';
+import { BrowserRouter as Router,Route,Switch,Link, } from 'react-router-dom';
 import { Button } from "./components/button/Button";
 import { Header } from "./components/header/Header";
 import { Product } from "./components/product/Product";
 import { Product2 } from "./components/product/Product";
 import { Product3 } from "./components/product/Product";
 import "./App.css";
+
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
         <Product2 />
         <Product3 />
       </div>
+
     </>
+
+    
   );
 }
 

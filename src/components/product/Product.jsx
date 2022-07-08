@@ -1,6 +1,6 @@
-import camera3 from "../../images/camera3.svg";
 import camera1 from "../../images/camera1.svg";
 import camera2 from "../../images/camera2.svg";
+import camera3 from "../../images/camera3.svg";
 import carrinho from "../../images/carrinho.png";
 import editar from "../../images/editar.png";
 import excluir from "../../images/excluir.png";
