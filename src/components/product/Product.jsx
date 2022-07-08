@@ -10,7 +10,7 @@ export function Product() {
         <img src={camera1} alt="camera1"></img>
 
         <div className="productBox">
-          <h1 className="nomeProduto">Nome do produto</h1>
+          <h1 className="nomeProduto">Câmera interna inteligente WI-FI Full HD IM3</h1>
           <p className="marcaProduto">intelbras</p>
           <p className="precoProduto">R$300,00</p>
           <p className="corProduto">cor:branco</p>
