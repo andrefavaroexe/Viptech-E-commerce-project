@@ -1,5 +1,4 @@
-import { pg2 } from './components/pages/Page2';
-import { BrowserRouter as Router,Route,Switch,Link, } from 'react-router-dom';
+
 import { Button } from "./components/button/Button";
 import { Header } from "./components/header/Header";
 import { Product } from "./components/product/Product";
@@ -15,7 +14,7 @@ function App() {
       <div className="container">
         <div className="produto">
           <h1>Produtos</h1>
-          <Button />
+          <Button/>
         </div>
       </div>
 
@@ -24,7 +23,7 @@ function App() {
         <Product2 />
         <Product3 />
       </div>
-
+      
     </>
 
     
