@@ -1,0 +1,101 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    
+    padding: 3rem 0;
+}
+
+.card-post {
+    width: 800px;
+    border : 1px solid rgb(255, 255, 255);
+    padding-left: 1px;
+    border-radius: 15px;
+    margin-right: 520px;
+    
+}
+
+.card-post h1{
+    font-family: Raleway;
+    font-weight: 800;
+    text-align: center;
+
+    color: #000000e1;
+
+    font-size: 3rem;
+    margin-bottom: 1px;
+}
+
+
+
+.card-body-post {
+    
+    margin-top: 1px;
+
+}
+
+.fields {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+    
+}
+
+label { 
+    width: 600px;
+    display:block;
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: Raleway;
+}
+
+input, textarea {
+    width: 100%;
+    border: #000000;
+    border: 0;
+
+    
+    font-size: 1.2rem;
+
+    padding-left: 15px;
+}
+
+input {
+    height: 45px;
+}
+
+textarea {
+    height: 190px;
+    resize: none;
+    
+    padding-top: 10px;
+}
+
+select {
+    display: flex;
+    justify-content: flex-end;
+    border: solid 1px #000000;
+}
+.btn-post{
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.btn-post button{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 5px 50px;
+   
+    background-color: #0F4C81;;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.error-message {
+    color: rgb(240, 47, 47);
+}
