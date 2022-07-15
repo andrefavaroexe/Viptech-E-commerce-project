@@ -1,12 +1,9 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./post.css";
-import { Calenario } from "../calender/Calendar";
-
-
+import  Photobox  from "../../images/photobox.svg";
 export function Post() {
-    const {
-        
+  const {
     register,
     handleSubmit,
     formState: { erros },
@@ -21,36 +18,73 @@ export function Post() {
         <div className="card-body-post">
           <form onSubmit={handleSubmit(addPost)}>
             <div className="fields">
-              <label>Nome do produto</label>
-              <input type="text" name="title" {...register("title")} />
+              <fieldset>
+                <legend>Nome do produto</legend>
+                <input required
+                  placeholder="Nome do produto"
+                  type="text"
+                  name="title"
+                  {...register("title")}
+                />
+              </fieldset>
             </div>
 
             <div className="fields">
-              <label>Marca do produto</label>
-              <input type="text" name="brand" {...register("brand")} />
+              <fieldset>
+                <legend>Marca do produto</legend>
+                <input required
+                  placeholder="Marca do produto"
+                  type="text"
+                  name="brand"
+                  {...register("brand")}
+                />
+              </fieldset>
             </div>
 
             <div className="fields">
-              <label>Valor</label>
-              <input type="string" name="value" {...register("value")}></input>
+              <fieldset className="value">
+                <legend>Valor</legend>
+                <span>R&#36;</span>
+                <input required
+                  placeholder="Insira o valor"
+                  type="number"
+                  name="value"
+                  {...register("value")}
+                ></input>
+              </fieldset>
             </div>
 
             <div className="fields">
-              <label>Selecione a cor do produto</label>
-              <select {...register("cor:")}>
-              <input className="" type="text" name="color" {...register("color")}/>
-        <option value="branco">branco</option>
-        <option value=" preto"> preto</option>
-        <option value=" cinza"> cinza</option>
-      </select>
-               </div>
+              <fieldset className="value">
+                <legend>Selecione a cor do produto</legend>
+                <select  className="options">
+                  <option value="selecione a cor">Selecione a cor</option>
+                  <option value="branco">branco</option>
+                  <option value=" preto"> preto</option>
+                  <option value=" cinza"> cinza</option>
+                </select>
+              </fieldset>
+            </div>
+            <div className="fields">
+              <fieldset className="value">
+                <legend>Data de cadastro</legend>
+                <input className="data" value="2022-07-15" required type="date"/>
+                  
+              </fieldset>
+            </div>
+
+            <div className="photobox">
+              <img src={Photobox}></img>
+              <p className="description">Adicionar fotos</p>
+              <input className="photoinput" type="file" required/>
+            </div>
+
             <div className="btn-post ">
               <button type="submit">Adicionar Produto</button>
             </div>
           </form>
         </div>
       </div>
-
     </main>
   );
 }

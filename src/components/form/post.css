@@ -7,11 +7,11 @@ main {
 }
 
 .card-post {
-    width: 800px;
+    width: 50rem;
     border : 1px solid rgb(255, 255, 255);
     padding-left: 1px;
     border-radius: 15px;
-    margin-right: 520px;
+    margin-right: 32.5rem;
     
 }
 
@@ -50,18 +50,17 @@ label {
 }
 
 input, textarea {
-    width: 100%;
+    width: 75%;
     border: #000000;
     border: 0;
-
-    
+    outline: none;
     font-size: 1.2rem;
 
     padding-left: 15px;
 }
 
 input {
-    height: 45px;
+    height: 80%;
 }
 
 textarea {
@@ -82,6 +81,57 @@ select {
 
 }
 
+fieldset {
+    border-radius: 5px;
+    
+}
+
+.value {
+    width: 350px;
+}
+.data {
+    width: 350px;
+    padding: 8px 1px;
+    
+}
+.options { 
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+    outline: none;
+    
+}
+.photobox  {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed gray;
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+}
+.photobox img {
+    
+    width: 75px;
+    height: 75px;
+}
+.photoinput {
+    width: 90%;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right : 0;
+    opacity: 0;
+
+}
+
 .btn-post button{
     font-family: Raleway;
     font-weight: 600;
@@ -94,6 +144,14 @@ select {
     border-radius: 10px;
     cursor: pointer;
 
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	appearance: textfield;
 }
 
 .error-message {
