@@ -1,0 +1,26 @@
+.paititulo {
+    border: solid 1px red;
+    display: flex;
+    gap: 500px;
+}
+
+.CarrinhoNcounter {
+    border: solid 1px green;
+    width: 700px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 60px;
+    
+
+}
+.CarrinhoBox {
+    width: 700px;
+    height: 200px;
+    border: solid 1px blue;
+}
+
+.nomeProdutoCarrinho {
+    font-size: 20px;
+    padding-top: 30px;
+}
+

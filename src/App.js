@@ -1,9 +1,7 @@
-
 import { Button } from "./components/button/Button";
 import { Header } from "./components/header/Header";
 import { Product } from "./components/product/Product";
-import { Product2 } from "./components/product/Product";
-import { Product3 } from "./components/product/Product";
+
 
 import "./App.css";
 
@@ -21,8 +19,6 @@ function App() {
 
       <div>
         <Product />
-        <Product2 />
-        <Product3 />
       </div>
      
     </>

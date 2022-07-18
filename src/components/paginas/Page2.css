@@ -1,12 +1,14 @@
 .littleHome {
+    border: 1px solid red;
     padding-left: 18.75px;
     color: #0F4C81;
     font-size: 16px;
     display: flex;
-    font-weight: 10px;
+    font-weight: 15px;
     line-height: 15px;
     align-items: center;
     margin-top: 20px;   
+    margin-left: 180px;
      
 }
 .littleHome a {
@@ -18,8 +20,7 @@
 }
 
 .tittle {
-    margin-top: 50px;
-
+    margin-top: 20px;
     padding-left: 200px;
 }
 

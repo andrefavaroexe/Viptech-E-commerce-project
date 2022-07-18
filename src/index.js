@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Edit } from './components/editproduct/EditProduct';
+import { Carrinho } from './components/carrinho/CarrinhoDeCompras';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,8 +14,9 @@ root.render(
    <BrowserRouter>
       <Routes>
       <Route path="/" element={<App/>} />
-      <Route path="/pagina2" element={<Adicionar/>} />
-
+      <Route path="/adicionar" element={<Adicionar/>} />
+      <Route path="/editar" element={<Edit/>} />
+      <Route path="/carrinho" element={<Carrinho/>} />
       </Routes>
       </BrowserRouter>
   
