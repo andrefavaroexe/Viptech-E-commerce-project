@@ -68,14 +68,18 @@ export function CarrinhoCompra() {
           </div>
           <div className="BotaoResumo">
           <button className="Button">PAGAR</button>
-          </div>
-
-          
+          </div>         
         </div>
-        
-      
-      
       </div>
+        
+        <div className="NotaPedido">
+        <p className="pagamentorealizadotitle">Pagamento Realizado com Sucesso!</p>
+        <p className="pagamentorealizado">Este pagamento foi realizado com:</p>
+        <p className="pagamentorealizado">3 Cedulas de R$100,00</p>
+        <p className="pagamentorealizado">1 Cédula de R$20,00</p>
+        <p className="pagamentorealizado">1 Cédula de R$10,00</p>
+        </div>
+
     </>
   );
 }
